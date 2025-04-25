@@ -1,0 +1,100 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+body
+{
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+h1
+{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #F2EFEA;
+    background-color: black;
+}
+
+.choice     
+{
+    width: 165px;
+    height:165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover
+{
+    cursor: pointer;
+    background-color: black;
+}
+
+img
+{
+    width: 150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    margin-top: 30px;
+}
+
+.scoreboard
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.score
+{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+#uscore
+{
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+#cscore
+{
+    font-size: 40px;
+    padding-left: 25px;
+}
+
+.msgc
+{
+    margin-top: 80px;
+    text-align: center;
+    align-items: center;
+}
+#msg
+{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    display: inline;
+    border-radius: 15px;
+    padding: 10px;
+}
